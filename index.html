@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UpCareer</title>
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <header class="header text-center py-3 text-white">
+      <div class="container-xxl">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-xxl">
+            <a class="navbar-brand" href="#">UpCareer</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Profession</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Tips</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero py-5 bg-light">
+        <div class="container-xxl text-center">
+          <h1 class="hero__title mb-3">Знайди Професію Мрії</h1>
+          <h3 class="hero__subtitle">
+            Твоя професія — твій світ. Створи його сам.
+          </h3>
+        </div>
+      </section>
+
+      <section class="professions py-5">
+        <div class="container-xxl">
+          <h2 class="profession__title mb-5 text-center">Досліджуй Професії</h2>
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-office"></use>
+                </svg> -->
+                <img src="./src/img/data_scientist_profession.avif" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Data Scientist</h5>
+                  <p class="card-text">
+                    Фахівець, який аналізує великі обсяги даних, створює моделі
+                    прогнозування та допомагає компаніям приймати обґрунтовані
+                    рішення на основі цифр.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    Python, SQL, статистика, машинне навчання.
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-data+scientist/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-wrench"></use>
+                </svg> -->
+                <img
+                  src="./src/img/frontend_developer_profession.avif"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Frontend Developer</h5>
+                  <p class="card-text">
+                    Створює інтерфейси вебсайтів та додатків, працює з HTML,
+                    CSS, JS та фреймворками для зручного UI/UX.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML, CSS, JS, React.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-frontend+developer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-paint-format"></use>
+                </svg> -->
+                <img src="./src/img/ui_ux_designer_profession.webp" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">UI/UX Designer</h5>
+                  <p class="card-text">
+                    Розробляє дизайн інтерфейсів, забезпечує зручність
+                    користування та привабливий вигляд додатків.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Figma, Adobe XD, Photoshop.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-cloud+engineer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-cogs"></use>
+                </svg> -->
+                <img src="./src/img/network_engineer_profession.jpg" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Network Engineer</h5>
+                  <p class="card-text">
+                    Відповідає за побудову та підтримку комп'ютерних мереж у
+                    компанії.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cisco, TCP/IP, Wi-Fi, VPN.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-network+engineer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-rocket"></use>
+                </svg> -->
+                <img src="./src/img/ai_engineer_profession.webp" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">AI Engineer</h5>
+                  <p class="card-text">
+                    Створює системи штучного інтелекту для автоматизації та
+                    аналізу даних.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    Python, ML, TensorFlow, PyTorch.
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-ai+engineer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-cloud-check"></use>
+                </svg> -->
+                <img src="./src/img/digital_marketer_profession.jpg" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Digital Marketer</h5>
+                  <p class="card-text">
+                    Розробляє та реалізує онлайн-стратегії для підвищення
+                    продажів та впізнаваності бренду.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">SEO, SMM, Google Ads.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-digital+marketer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-lg-none">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3">
+                  <use href="./src/img/symbol-defs.svg#icon-database"></use>
+                </svg> -->
+                <img src="./src/img/business_analyst_profession.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Business Analyst</h5>
+                  <p class="card-text">
+                    Аналізує бізнес-процеси та пропонує рішення для оптимізації
+                    та розвитку компанії.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Excel, SQL, BPMN.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-business+analys/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-cogs"></use>
+                </svg> -->
+                <img
+                  src="./src/img/cybersecurity_specialist_profession.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Cybersecurity Specialist</h5>
+                  <p class="card-text">
+                    Захищає інформаційні системи від кібератак та витоків даних.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    Network Security, Penetration Testing.
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-cybersecurity+specialist/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-cloud-check"></use>
+                </svg> -->
+                <img src="./src/img/cloud_engineer_profession.jpg" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Cloud Engineer</h5>
+                  <p class="card-text">
+                    Працює з хмарними платформами для розгортання та підтримки
+                    сервісів компанії.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">AWS, Azure, DevOps.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-cloud+engineer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <!-- <svg class="icon p-3 d-lg-none">
+                  <use href="./src/img/symbol-defs.svg#icon-rocket"></use>
+                </svg> -->
+                <img src="./src/img/game_developer_profession.webp" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Game Developer</h5>
+                  <p class="card-text">
+                    Створює комп’ютерні та мобільні ігри, займається
+                    програмуванням і дизайном ігрових світів.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Unity, C#, Unreal Engine.</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    target="_blank"
+                    href="https://www.work.ua/jobs-game+developer/"
+                    class="btn btn-primary w-100"
+                    >Поцікавитися</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advice py-5 bg-light">
+        <div class="container-xxl">
+          <h2 class="advice__title mb-4">Шукай корисні поради</h2>
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card card__advice h-100">
+                <a
+                  target="_blank"
+                  class="card-body card__link"
+                  href="https://campus.epam.ua/ua/career-test/guidance"
+                >
+                  <h5 class="card-title card__title">Як обрати професію</h5>
+                  <p class="card-text card__text">
+                    Поради щодо вибору професії відповідно до ваших інтересів та
+                    здібностей.
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card card__advice h-100">
+                <a
+                  target="_blank"
+                  class="card-body card__link"
+                  href="https://www.ebsco.com/research-starters/technology/21st-century-skills"
+                >
+                  <h5 class="card-title card__title">Навички майбутнього</h5>
+                  <p class="card-text card__text">
+                    Список найважливіших навичок, які знадобляться у 21
+                    столітті.
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card card__advice h-100">
+                <a
+                  target="_blank"
+                  class="card-body card__link"
+                  href="https://www.epiprosvita.org/blog/soft-skills-dlya-suchasnogo-rinku-praci-tendenciyi-2025-roku?gad_source=1&gad_campaignid=22136394682&gbraid=0AAAAAqWR0595RgTUiKnFrDmFFKBpBrGqj&gclid=Cj0KCQjw_L_FBhDmARIsAItqgt4V_N3VMwvipwma4IfFVb3jjUDAtP-xsoKCvs6ERq9ujXrDoQFLmMQaAo_7EALw_wcB"
+                >
+                  <h5 class="card-title card__title">Розвиток Soft Skills</h5>
+                  <p class="card-text card__text">
+                    Як ефективно розвивати комунікаційні та організаційні
+                    навички.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container-xxl text">
+        &copy; 2025 UpCareer. Всі права захищені.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

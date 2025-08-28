@@ -22,5 +22,5 @@
 
 ## Посилання
 
-[Перейти на сайт](#)  
+[Перейти на сайт](https://andriqwl.github.io/UpCareer/)  
 [Вакансії на Work.ua](https://www.work.ua)
